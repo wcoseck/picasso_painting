@@ -1,0 +1,87 @@
+@media (min-width: 801px) {
+}
+body {
+  width: 80%;
+  margin: 0 auto !important;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.clientForm {
+  margin-top: 10vh;
+}
+.frame {
+  background-color: rgb(251, 251, 251);
+  border: 3px solid black;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 220px;
+  margin-top: 76px;
+  padding-bottom: 250px;
+}
+.parent {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+
+  /* flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 250px; */
+}
+.box {
+  margin-top: 20px;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 15px;
+  border: 5px solid black;
+}
+.red {
+  background-color: red;
+  width: 56px;
+  height: 100px;
+}
+.blue {
+  background-color: rgb(50, 50, 255);
+  width: 56px;
+  height: 100px;
+  margin-top: 9px;
+}
+.white {
+  background-color: white;
+  width: 56px;
+  height: 100px;
+}
+.yellow {
+  background-color: rgb(209, 191, 27);
+  width: 56px;
+  height: 100px;
+  transform: rotate(90deg);
+}
+.secondRed {
+  background-color: red;
+  width: 56px;
+  height: 100px;
+  transform: rotate(90deg);
+}
+.secondBlue {
+  background-color: rgb(50, 50, 255);
+  width: 56px;
+  height: 100px;
+  margin-top: 9px;
+  transform: rotate(-45deg);
+}
+.secondWhite {
+  background-color: white;
+  width: 56px;
+  height: 100px;
+  transform: rotate(56deg);
+}
+.body {
+  margin-top: 50px;
+}
+.whole {
+  flex-direction: column;
+}
